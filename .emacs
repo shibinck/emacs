@@ -65,6 +65,7 @@
 (pymacs-load "ropemacs" "rope-")
 (ido-mode t)
 (ido-everywhere t)
+(setq ido-enable-flex-matching t)
 (global-auto-complete-mode t)
 (ansi-color-for-comint-mode-on)
 (bar-cursor-mode t)
